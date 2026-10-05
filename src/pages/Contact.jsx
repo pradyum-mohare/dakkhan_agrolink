@@ -14,10 +14,10 @@ export default function Contact() {
           <div className="contact-icon">⌖</div>
           <div>
             <h2>Visit Us</h2>
-            <p>Snehankit Apartment Sr no 20/2/1<br />
-            Ground floor flat no 1, Building no 262,<br />
-            Kashinath Patil nagar, Balajinagar,<br />
-            Dhankawadi, Pune 411043</p>
+            <p>Ovi Apartment, flat no 202,<br />
+            SR.NO: 55/3/A, Vadgaon Budruk,<br />
+            near Paunjai Mata Mandir, <br />
+             Pune, Maharashtra 411041</p>
           </div>
         </div>
 
