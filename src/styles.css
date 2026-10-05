@@ -317,3 +317,64 @@ nav button:hover, nav button.active { background: #e9f0e6; color: #0d5c35; }
   }
 
 }
+.phone-row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 10px;
+}
+
+.country-code-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 13px 8px;
+
+  border: 1px solid #d5ddd6;
+  border-radius: 8px;
+
+  background: #f5f7f5;
+
+  font-weight: 600;
+  color: #26352b;
+}
+
+@media (max-width: 600px) {
+  .phone-row {
+    grid-template-columns: 82px 1fr;
+  }
+}
+.phone-row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 10px;
+}
+
+.country-code-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 8px;
+  border: 1px solid #d5ddd6;
+  border-radius: 8px;
+  background: #f5f7f5;
+  font-weight: 600;
+  color: #26352b;
+}
+
+.phone-error {
+  margin-top: 7px;
+  font-size: 13px;
+  color: #c0392b;
+}
+
+.order-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .phone-row {
+    grid-template-columns: 82px 1fr;
+  }
+}
