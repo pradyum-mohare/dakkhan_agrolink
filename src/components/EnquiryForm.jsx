@@ -69,7 +69,7 @@ export default function EnquiryForm() {
 
     try {
       const response = await fetch(
-        'https://formsubmit.co/ajax/pradyummohare11@gmail.com',
+        'https://formsubmit.co/ajax/dakkhanagrolink20@gmail.com',
         {
           method: 'POST',
           body: formData,
