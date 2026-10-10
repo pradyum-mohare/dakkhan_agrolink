@@ -8,7 +8,7 @@ export default function Contact() {
         <h1>Contact Us</h1>
         <p className="section-text">For product availability, enquiries and orders, contact Dakkhan Agrolink.</p>
       </div>
-
+      
       <div className="contact-grid">
         <div className="contact-card">
           <div className="contact-icon">⌖</div>
@@ -20,6 +20,23 @@ export default function Contact() {
              Pune, Maharashtra 411041</p>
           </div>
         </div>
+
+        
+
+        <div className="contact-card">
+          <div className="contact-icon">✉</div>
+          <div>
+            <h2>Email</h2>
+            <a
+              href="mailto:dakkhanagrolink20@gmail.com"
+              className="contact-email"
+            >
+              dakkhanagrolink20@gmail.com
+            </a>
+          </div>
+        </div>
+
+
 
         <div className="contact-card">
           <div className="contact-icon">☎</div>

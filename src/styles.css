@@ -417,3 +417,13 @@ nav button:hover, nav button.active { background: #e9f0e6; color: #0d5c35; }
     bottom: 18px;
   }
 }
+
+.contact-card .contact-email {
+  font-size: 18px;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.contact-card .contact-email:hover {
+  text-decoration: underline;
+}
