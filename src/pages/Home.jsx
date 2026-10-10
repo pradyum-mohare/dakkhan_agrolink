@@ -138,7 +138,7 @@ export default function Home({ navigate }) {
           </p>
 
           <img
-            src="/dakkhan_agrolink/assets/make-in-india.webp"
+            src="/assets/make-in-india.webp"
             alt="Make in India"
             className="make-india-logo"
             loading="lazy"
