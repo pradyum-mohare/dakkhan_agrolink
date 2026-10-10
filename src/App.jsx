@@ -4,6 +4,7 @@ import Products from './pages/Products';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [page, setPage] = useState('home');
@@ -24,6 +25,7 @@ export default function App() {
       </main>
 
       <Footer navigate={navigate} />
+      <Analytics />
 
       {/* Floating WhatsApp Button */}
       <a
