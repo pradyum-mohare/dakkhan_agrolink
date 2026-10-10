@@ -5,7 +5,7 @@ export default function Header({ page, navigate }) {
     <header className="site-header">
       <div className="nav-container">
         <button className="brand" onClick={() => navigate('home')} aria-label="Dakkhan Agrolink home">
-          <img src="/dakkhan_agrolink/assets/logo.webp" alt="Dakkhan Agrolink logo" />
+          <img src="/assets/logo.webp" alt="Dakkhan Agrolink logo" />
           <div>
             <strong>DAKKHAN AGROLINK</strong>
             <span>COMMODITY SOLUTIONS</span>
